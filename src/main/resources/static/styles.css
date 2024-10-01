@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#subwayMap {
+    margin: 20px auto;
+    display: block;
+    width: 100%; /* 반응형 디자인을 위해 폭을 100%로 설정 */
+    height: 400px; /* 고정 높이 설정, 이 값은 필요에 따라 조정 가능 */
+    max-width: 800px; /* 최대 폭을 설정하여 지나치게 커지지 않도록 함 */
+}
+
+text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#lines {
+    margin-bottom: 20px;
+}
+
+.line {
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.line[data-line="1"] {
+    background-color: #0052A4; /* 1호선 */
+}
+
+.line[data-line="2"] {
+    background-color: #00A84D; /* 2호선 */
+}
+
+.line[data-line="3"] {
+    background-color: #EF7C1C; /* 3호선 */
+}
+
+.line[data-line="4"] {
+    background-color: #00A5DE; /* 4호선 */
+}
+
+.line[data-line="5"] {
+    background-color: #996CAC; /* 5호선 */
+}
+
+.line[data-line="6"] {
+    background-color: #CD7C2F; /* 6호선 */
+}
+
+.line[data-line="7"] {
+    background-color: #747F00; /* 7호선 */
+}
+
+.line[data-line="8"] {
+    background-color: #E6186C; /* 8호선 */
+}
+
+.line:hover {
+    opacity: 0.8; /* 버튼에 마우스를 올렸을 때 투명도 감소 */
+}
+
+#stationList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#stationList li {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}

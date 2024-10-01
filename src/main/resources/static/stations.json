@@ -1,0 +1,46 @@
+{
+  "lines": {
+    "1": [
+      {"name": "서울", "latitude": 37.1234, "longitude": 127.1234, "phoneNumber": "02-123-4567", "description": "1호선의 노선 "},
+      {"name": "시청", "latitude": 37.5678, "longitude": 127.5678, "phoneNumber": "02-987-6543", "description": "1호선의 노선 "},
+      {"name": "종각", "latitude": 37.5678, "longitude": 127.5678, "phoneNumber": "02-987-6543", "description": "1호선의 노선 "},
+      {"name": "종로3가", "latitude": 37.5678, "longitude": 127.5678, "phoneNumber": "02-987-6543", "description": "1호선의 노선 "},
+      {"name": "종로5가", "latitude": 37.5678, "longitude": 127.5678, "phoneNumber": "02-987-6543", "description": "1호선의 노선 "},
+      {"name": "동대문", "latitude": 37.5678, "longitude": 127.5678, "phoneNumber": "02-987-6543", "description": "1호선의 노선 "},
+      {"name": "동묘앞", "latitude": 37.5678, "longitude": 127.5678, "phoneNumber": "02-987-6543", "description": "1호선의 노선 "},
+      {"name": "신설동", "latitude": 37.5678, "longitude": 127.5678, "phoneNumber": "02-987-6543", "description": "1호선의 노선 "},
+      {"name": "제기동", "latitude": 37.5678, "longitude": 127.5678, "phoneNumber": "02-987-6543", "description": "1호선의 노선 "},
+      {"name": "청량리", "latitude": 37.5678, "longitude": 127.5678, "phoneNumber": "02-987-6543", "description": "1호선의 노선 "}
+
+    ],
+    "2": [
+      {"name": "Station C", "latitude": 37.9101, "longitude": 127.9101, "phoneNumber": "02-123-1234", "description": "2호선의 Station "},
+      {"name": "Station D", "latitude": 37.2345, "longitude": 127.2345, "phoneNumber": "02-567-5678", "description": "2호선의 Station "}
+    ],
+    "3": [
+      {"name": "Station ", "latitude": 37.9101, "longitude": 127.9101, "phoneNumber": "02-123-1234", "description": "3호선의 Station "},
+      {"name": "Station ", "latitude": 37.2345, "longitude": 127.2345, "phoneNumber": "02-567-5678", "description": "3호선의 Station "}
+    ],
+    "4": [
+      {"name": "Station ", "latitude": 37.9101, "longitude": 127.9101, "phoneNumber": "02-123-1234", "description": "4호선의 Station "},
+      {"name": "Station ", "latitude": 37.2345, "longitude": 127.2345, "phoneNumber": "02-567-5678", "description": "4호선의 Station "}
+    ],
+    "5": [
+      {"name": "Station ", "latitude": 37.9101, "longitude": 127.9101, "phoneNumber": "02-123-1234", "description": "5호선의 Station "},
+      {"name": "Station ", "latitude": 37.2345, "longitude": 127.2345, "phoneNumber": "02-567-5678", "description": "5호선의 Station "}
+    ],
+    "6": [
+      {"name": "Station ", "latitude": 37.9101, "longitude": 127.9101, "phoneNumber": "02-123-1234", "description": "6호선의 Station "},
+      {"name": "Station ", "latitude": 37.2345, "longitude": 127.2345, "phoneNumber": "02-567-5678", "description": "6호선의 Station "}
+    ],
+    "7": [
+      {"name": "Station ", "latitude": 37.9101, "longitude": 127.9101, "phoneNumber": "02-123-1234", "description": "7호선의 Station "},
+      {"name": "Station ", "latitude": 37.2345, "longitude": 127.2345, "phoneNumber": "02-567-5678", "description": "7호선의 Station "}
+    ],
+    "8": [
+      {"name": "Station ", "latitude": 37.9101, "longitude": 127.9101, "phoneNumber": "02-123-1234", "description": "8호선의 Station "},
+      {"name": "Station ", "latitude": 37.2345, "longitude": 127.2345, "phoneNumber": "02-567-5678", "description": "8호선의 Station "}
+    ]
+  }
+}
+

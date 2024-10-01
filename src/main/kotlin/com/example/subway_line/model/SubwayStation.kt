@@ -10,7 +10,7 @@ import jakarta.persistence.Column
 
 @Entity
 @Table(name = "subwaystation")
-data class SubwayStation(
+data class SubwayStation(                               //클래스 선언과 테이블이름 매핑
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0,
@@ -21,10 +21,10 @@ data class SubwayStation(
     @Column(name = "line_number", nullable = false)
     val lineNumber: Int,
 
-    @Column(precision = 9)
+    @Column(precision = 9)                  //소수점 이하 최대 9자리까지 표현할 수 있는 위도 필드
     val latitude: Double? = null,
 
-    @Column(precision = 9)
+    @Column(precision = 9)                  //소수점 이하 최대 9자리까지 표현할 수 있는 경도 필드
     val longitude: Double? = null,
 
     @Column(name = "phone_number", length = 15)

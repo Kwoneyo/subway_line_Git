@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>서울 지하철 노선도</h1>
+
+<div id="lines">
+    <button class="line" data-line="1">1호선</button>
+    <button class="line" data-line="2">2호선</button>
+    <button class="line" data-line="3">3호선</button>
+    <button class="line" data-line="4">4호선</button>
+    <button class="line" data-line="5">5호선</button>
+    <button class="line" data-line="6">6호선</button>
+    <button class="line" data-line="7">7호선</button>
+    <button class="line" data-line="8">8호선</button>
+</div>
+
+<svg id="subwayMap" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 노선 및 역들은 JS에서 동적으로 추가됩니다. -->
+</svg>
+
+<script src="subway.js"></script>
+</body>
+</html>
+
