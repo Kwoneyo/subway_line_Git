@@ -3,12 +3,20 @@ body {
     text-align: center;
 }
 
+
+/*SVG 컨테이너: 수평 스크롤을 활성화하고, 중앙에 정렬하며, 최대 너비를 설정합니다.*/
+
+#svgContainer {
+    overflow-x: auto; /* 수평 스크롤 활성화 */
+    margin: 20px auto; /* 가운데 정렬 */
+    border: 1px solid #ccc; /* 경계선 추가 (선택사항) */
+    max-width: 100%; /* 최대 너비 설정 */
+}
+/*SVG 설정: SVG 요소의 높이를 고정하고, 너비는 자동으로 설정합니다. 최소 너비를 지정하여 역이 충분히 표시되도록 합니다.*/
 #subwayMap {
-    margin: 20px auto;
-    display: block;
-    width: 100%; /* 반응형 디자인을 위해 폭을 100%로 설정 */
-    height: 400px; /* 고정 높이 설정, 이 값은 필요에 따라 조정 가능 */
-    max-width: 800px; /* 최대 폭을 설정하여 지나치게 커지지 않도록 함 */
+    height: 400px; /* 고정 높이 설정 */
+    width: auto; /* 자동 너비 설정 */
+    min-width: 1000px; /* 최소 너비 설정 (역 수에 따라 조정) */
 }
 
 text {
@@ -65,15 +73,3 @@ text {
     opacity: 0.8; /* 버튼에 마우스를 올렸을 때 투명도 감소 */
 }
 
-#stationList {
-    list-style-type: none;
-    padding: 0;
-}
-
-#stationList li {
-    margin: 5px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    font-size: 14px;
-}

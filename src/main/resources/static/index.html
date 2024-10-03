@@ -20,11 +20,15 @@
     <button class="line" data-line="8">8호선</button>
 </div>
 
-<svg id="subwayMap" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-    <!-- 노선 및 역들은 JS에서 동적으로 추가됩니다. -->
-</svg>
+<div id="svgContainer">
+    <svg id="subwayMap" xmlns="http://www.w3.org/2000/svg">
+        <!-- 노선 및 역들은 JS에서 동적으로 추가됩니다. -->
+    </svg>
+</div>
 
 <script src="subway.js"></script>
 </body>
 </html>
 
+<!-- SVG 컨테이너: 지하철 노선과 역을 그릴 SVG 요소입니다. 초기에는 비어 있음.
+스크립트: JavaScript 파일(subway.js)을 불러옴  -->
