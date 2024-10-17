@@ -22,3 +22,25 @@ settings.gradle: 빌드할 프로젝트의 정보를 설정하는 파일
 
 포스트맨 GET 요청시 과정
 HTTP 요청 ->  Controller -> Service -> Repository -> 데이터베이스
+
+
+버전확인
+1. Intellij IDEA
+IntelliJ IDEA 2024.2.3 Community Edition 을 사용
+Windows 에서도 동일한 2024.2.3 버전을 설치하는 것이 좋음
+
+2. JAVA (JDK)
+Oracle OpenJDK 17.0.12을 사용하고 있는데, 이는 LTS(Long-Term Support) 버전이라서 안정성이 좋음.
+Windows 에서도 동일한 JDK 17.0.12을 사용
+
+3. Kotlin
+Kotlin 플러그인 버전은 2.0.0
+
+4. Gradle
+Gradle 버전은 8.10.2
+두 환경 모두에서 Gradle Wrapper 를 사용하여 버전을 고정하는 방법을 추천
+환경에 따라 Gradle 버전이 다르더라도 프로젝트 내에서 지정된 버전을 강제로 사용하게 됨
+
+5. Dependencies 의존성
+MySQL Connector 버전이 8.0.32로 설정되어 있으니,
+두 환경에서 동일한 MySQL 버전을 사용해야 합니다.
